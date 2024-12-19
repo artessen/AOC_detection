@@ -1,4 +1,4 @@
-# XGBoost Model for Multi-target Classification of Ares of Concern for Agriculture in Europe
+# XGBoost Model for Multi-target Classification of Areas of Concern (AOC) for Agriculture in Europe
 Pipeline for the implementation of an expert-driven and explainable artificial intelligence model for probabilistically detecting multiple agriculture-related hazards in Europe. 
 
 ## Overview
@@ -6,13 +6,27 @@ This repository implements an eXtreme Gradient Boosting (XGBoost) model for mult
 
 The script is designed to handle multiple target variables representing different climate hazards relevant for agriculture in Europe, with each target variable trained independently using customised features and evaluation metrics.
 
-## Features
+## Processing Steps
 - **Data Preprocessing**: Handles missing data, feature selection, and class balancing.
 - **Hyperparameter Tuning**: Selection of hyperparameters for each ensemble member to optimise the evaluation metric scores.
 - **Ensemble Training**: Builds an ensemble of models for robust predictions.
 - **Performance Metrics**: Computes accuracy, precision, recall, and F1 score for training, validation, and test sets.
 - **Explainability**: Extracts SHAP (SHapley Additive exPlanations) values for feature importance analysis.
 - **Outputs**: Saves trained models, variable importance, SHAP values, and prediction results.
+
+## Types of Areas of Concern (AOC)
+- ColdS: Cold Spell
+- HeatW: Heatwave
+- Drought: Droughts
+- HotDry: Hot and Dry conditions
+- RainS: Rain Surplus
+- RainD: Rain Deficit
+- TSumS: Temperature Accumulation Surplus
+- TSumD: Temperature Accumulation Deficit
+
+More details regarding the definition of AOC types can be found in the following web addresses:
+- https://joint-research-centre.ec.europa.eu/monitoring-agricultural-resources-mars/jrc-mars-bulletin_en
+- https://doi.org/10.1016/j.agsy.2018.07.003
 
 ## Installation
 1. Clone the repository:
