@@ -24,6 +24,8 @@ The script is designed to handle multiple target variables representing differen
 - **TSumS**: Temperature Accumulation Surplus
 - **TSumD**: Temperature Accumulation Deficit
 
+The .rds files inside the folders with the AOC acronyms are the pre-trained ensemble members for the detection of AOC in Europe. 
+
 More details regarding the definition of AOC types can be found in the following web addresses:
 - https://joint-research-centre.ec.europa.eu/monitoring-agricultural-resources-mars/jrc-mars-bulletin_en
 - https://doi.org/10.1016/j.agsy.2018.07.003
@@ -95,7 +97,7 @@ This project is licensed under the GNU General Public License v3.0. See the LICE
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any feature suggestions or bug fixes.
 
-## Acknowledgments
+## Citation
 This work utilises open-source libraries and builds upon the extensive functionality provided by the XGBoost library (https://CRAN.R-project.org/package=xgboost). Special thanks to the contributors of the R packages used in this project.
 
 ## Citation
