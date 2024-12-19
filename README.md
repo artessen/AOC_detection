@@ -15,14 +15,14 @@ The script is designed to handle multiple target variables representing differen
 - **Outputs**: Saves trained models, variable importance, SHAP values, and prediction results.
 
 ## Types of Areas of Concern (AOC)
-- ColdS: Cold Spell
-- HeatW: Heatwave
-- Drought: Droughts
-- HotDry: Hot and Dry conditions
-- RainS: Rain Surplus
-- RainD: Rain Deficit
-- TSumS: Temperature Accumulation Surplus
-- TSumD: Temperature Accumulation Deficit
+- **ColdS**: Cold Spell
+- **HeatW**: Heatwave
+- **Drought**: Droughts
+- **HotDry**: Hot and Dry conditions
+- **RainS**: Rain Surplus
+- **RainD**: Rain Deficit
+- **TSumS**: Temperature Accumulation Surplus
+- **TSumD**: Temperature Accumulation Deficit
 
 More details regarding the definition of AOC types can be found in the following web addresses:
 - https://joint-research-centre.ec.europa.eu/monitoring-agricultural-resources-mars/jrc-mars-bulletin_en
