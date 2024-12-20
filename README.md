@@ -98,7 +98,7 @@ This project is licensed under the GNU General Public License v3.0. See the LICE
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any feature suggestions or bug fixes.
 
-## Citation
+## Acknowledgements
 This work utilises open-source libraries and builds upon the extensive functionality provided by the XGBoost library (https://CRAN.R-project.org/package=xgboost). Special thanks to the contributors of the R packages used in this project.
 
 ## Citation
