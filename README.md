@@ -44,7 +44,8 @@ More details regarding the definition of AOC types can be found in the following
 
 ### Data Preparation
 - Input data is expected in a CSV file (e.g., `dfDatabase_sample.csv` for training, `dfDatabaseProd_sample.csv` for inference).
-- The files `dfDatabase_sample.csv` and `dfDatabaseProd_sample.csv` are samples of how the input CSV files should look like. 
+- The files `dfDatabase_sample.csv` and `dfDatabaseProd_sample.csv` are samples of how the input CSV files should look like.
+- The original AOC data used as target variables are available as open-access datasets at https://data.jrc.ec.europa.eu/.
 - The script identifies features, target variables, and ID columns dynamically.
 
 ### Custom Functions
